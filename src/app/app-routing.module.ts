@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
+import { ListFoldersComponent } from './users/list-folders/list-folders.component';
+const routes: Routes = [
+  {path:'',component: ListFoldersComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
